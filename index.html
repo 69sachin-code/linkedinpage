@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A personal branding career webpage for recruiters and hiring managers."
+    />
+    <title>Sachin Hattangadi | Career Atlas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650;9..144,750&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar" aria-label="Primary navigation">
+        <a class="wordmark" href="#top" aria-label="Sachin Hattangadi career webpage home">
+          <span>Sachin Hattangadi</span>
+          <small>Career Atlas</small>
+        </a>
+        <nav class="nav-links" aria-label="Career sections">
+          <a href="#timeline">Timeline</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero section-band">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Personal branding for recruiters and hiring managers</p>
+            <h1 id="profile-name">Sachin Hattangadi</h1>
+            <p class="hero-title" id="profile-title">Career story loading...</p>
+            <p class="hero-summary" id="profile-summary">
+              Add your LinkedIn export and this page becomes a rich, recruiter-ready
+              illustration of your growth, skills, education, and credentials.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" id="linkedin-link" href="#" target="_blank" rel="noreferrer">
+                View LinkedIn
+              </a>
+              <a class="button button-ghost" id="email-link" href="#contact">Contact</a>
+            </div>
+          </div>
+
+          <div class="career-orbit reveal" aria-label="Career highlights">
+            <div class="orbit-card orbit-card-large">
+              <span class="metric" id="metric-experience">TBD</span>
+              <span class="metric-label">Experience</span>
+            </div>
+            <div class="orbit-card">
+              <span class="metric" id="metric-skills">0</span>
+              <span class="metric-label">Core skills</span>
+            </div>
+            <div class="orbit-card">
+              <span class="metric" id="metric-certs">0</span>
+              <span class="metric-label">Credentials</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="snapshot section-band" aria-labelledby="snapshot-heading">
+          <div>
+            <p class="section-kicker">Signal, not noise</p>
+            <h2 id="snapshot-heading">A recruiter-readable career profile with depth.</h2>
+          </div>
+          <div class="snapshot-grid" id="snapshot-grid"></div>
+        </section>
+
+        <section class="timeline-wrap section-band" id="timeline" aria-labelledby="timeline-heading">
+          <div class="section-heading">
+            <p class="section-kicker">Career timeline</p>
+            <h2 id="timeline-heading">Progression, decisions, and proof points.</h2>
+          </div>
+          <div class="timeline" id="timeline-list"></div>
+        </section>
+
+        <section class="skills section-band" id="skills" aria-labelledby="skills-heading">
+          <div class="section-heading">
+            <p class="section-kicker">Skills matrix</p>
+            <h2 id="skills-heading">Capabilities grouped for fast screening.</h2>
+          </div>
+          <div class="skill-grid" id="skill-grid"></div>
+        </section>
+
+        <section class="credentials section-band" id="education" aria-labelledby="education-heading">
+          <div class="section-heading">
+            <p class="section-kicker">Education and certifications</p>
+            <h2 id="education-heading">Credentials that reinforce the narrative.</h2>
+          </div>
+          <div class="credential-layout">
+            <div>
+              <h3>Education</h3>
+              <div class="stack-list" id="education-list"></div>
+            </div>
+            <div>
+              <h3>Certifications</h3>
+              <div class="stack-list" id="certification-list"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="linkedin section-band" aria-labelledby="linkedin-heading">
+          <div class="linkedin-panel">
+            <p class="section-kicker">LinkedIn integration</p>
+            <h2 id="linkedin-heading">Built to absorb your exported profile data.</h2>
+            <p>
+              Export your LinkedIn profile as a PDF first, then request the full data archive
+              if you want positions, education, skills, and certifications as CSV files.
+            </p>
+            <div class="import-steps">
+              <span>Profile PDF</span>
+              <span>Data archive</span>
+              <span>Career JSON</span>
+              <span>Published page</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact section-band" id="contact" aria-labelledby="contact-heading">
+          <div>
+            <p class="section-kicker">Next conversation</p>
+            <h2 id="contact-heading">Make the next step obvious.</h2>
+            <p id="contact-copy">
+              Share your LinkedIn export and I will integrate the real timeline, skills,
+              education, and certifications into this page.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" id="bottom-linkedin-link" href="#" target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+            <a class="button button-ghost" id="bottom-email-link" href="mailto:">Email</a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
