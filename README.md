@@ -1,5 +1,4 @@
-[README.md](https://github.com/user-attachments/files/27398398/README.md)
-# linkedinpage# Sachin Hattangadi Career Atlas
+# Sachin Hattangadi Career Atlas
 
 A static personal branding web app for recruiters and hiring managers. The interface is designed to turn LinkedIn profile data into a visual career narrative across timeline, skills, education, and certifications.
 
